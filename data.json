@@ -1,0 +1,41 @@
+{
+    "username": "user1@mail.com",
+    "orders": [
+        {
+            "id": "order1",
+            "timestamp": "2022-01-01T00:00:00Z",
+            "items": [
+                {
+                    "id": "item1",
+                    "name": "item1",
+                    "price": 10,
+                    "quantity": 1
+                },
+                {
+                    "id": "item2",
+                    "name": "item2",
+                    "price": 20,
+                    "quantity": 2
+                }
+            ]
+        },
+        {
+            "id": "order2",
+            "timestamp": "2022-01-02T00:00:00Z",
+            "items": [
+                {
+                    "id": "item3",
+                    "name": "item3",
+                    "price": 30,
+                    "quantity": 3
+                },
+                {
+                    "id": "item4",
+                    "name": "item4",
+                    "price": 40,
+                    "quantity": 4
+                }
+            ]
+        }
+    ]
+}

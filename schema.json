@@ -1,0 +1,36 @@
+{
+  "mappings": {
+    "dynamic": "false",
+    "properties": {
+      "username": {
+        "type": "keyword"
+      },
+      "orders": {
+        "properties": {
+          "id": {
+            "type": "keyword"
+          },
+          "timestamp": {
+            "type": "date"
+          },
+          "items": {
+            "properties": {
+              "id": {
+                "type": "keyword"
+              },
+              "name": {
+                "type": "keyword"
+              },
+              "price": {
+                "type": "float"
+              },
+              "quantity": {
+                "type": "integer"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
